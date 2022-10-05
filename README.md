@@ -9,3 +9,5 @@ It used the async await syntax to fetch the data.
 The API used on this application is from [Random User Generator](https://randomuser.me).
 
 ## Application Preview
+
+![gif-preview](assets/user-filter.gif)
