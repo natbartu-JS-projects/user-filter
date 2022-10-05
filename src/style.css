@@ -20,7 +20,6 @@ body {
   box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
   overflow: hidden;
   width: 300px;
-  margin-top: 20px;
 }
 
 .title {
@@ -34,13 +33,13 @@ body {
 }
 
 .header {
-  background-color: blue;
+  background-color: #6fbcf7;
   padding: 30px 20px;
   color: #fff;
 }
 
 .header input {
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.1);
   border: 0;
   border-radius: 50px;
   color: #fff;
@@ -51,4 +50,13 @@ body {
 
 .header input:focus {
   outline: none;
+}
+
+.user-list {
+  background-color: #fff;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  max-height: 400px;
+  overflow-y: auto;
 }
